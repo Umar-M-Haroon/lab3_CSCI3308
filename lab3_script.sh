@@ -27,7 +27,7 @@ let emails=$(grep -c "@" regex_practice.txt)
 echo "number emails:$emails"
 
 echo "printing phone Numbers now"
-grep "302" regex_practice.txt
+grep "303" regex_practice.txt
 
 
 #getting all geocities emails, saving to file, then printing the file

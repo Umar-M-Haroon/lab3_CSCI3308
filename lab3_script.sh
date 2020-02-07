@@ -23,6 +23,10 @@ echo "pattern $pattern"
 
 grep $pattern $fileName
 
+echo "printing number of phone numbers"
+grep -c '[0-9]\{3\}\-[0-9]\{3\}\-[0-9]\{4\}' regex_practice.txt
+
+
 let emails=$(grep -c "@" regex_practice.txt)
 echo "number emails:$emails"
 

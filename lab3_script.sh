@@ -38,3 +38,7 @@ grep "geocities.com" regex_practice.txt >> geocitiesemails.txt
 echo "printing geocitites emails"
 
 cat geocitiesemails.txt
+
+git add geocitiesemails.txt
+git commit . -m "add emails"
+git push origin master
